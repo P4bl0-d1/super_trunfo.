@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    char estado, cidade[8], codigo_da_carta[6]; //linha usada para ergistrar o estado codigo da carta e nome da cidade.
+    char estado, cidade[8], codigo_da_carta[6]; //linha usada para registrar o estado, codigo da carta e nome da cidade.
     int populacao, pontos_turisticos; //usada para registrar o número da população e de pontos turisticos
     float area, pib; 
 
-// usado para unserir os dados
+// usado para inserir os dados
     printf("digite o estado: \n");
     scanf("%s", &estado);
 
@@ -39,7 +39,3 @@ int main(){
 
     return 0;
 }
-
-    return 0;
-}
-
