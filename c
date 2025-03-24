@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    char estado, cidade[8], codigo_da_carta[6]; //linha usada para ergistrar o estado////linha usada para código da carta//linha usada para registrar o nome da cidade
-    int populacao; //usada para registrar o número da população
-    float area, pib; // usado para registrar o a área da cidade ou estado em metro quadrado // usado para registrar o pib da região selecionada
-    int pontos_turisticos; //registrar numero de pontos turisticos
+    char estado, cidade[8], codigo_da_carta[6]; //linha usada para ergistrar o estado codigo da carta e nome da cidade.
+    int populacao, pontos_turisticos; //usada para registrar o número da população e de pontos turisticos
+    float area, pib; 
 
 // usado para unserir os dados
     printf("digite o estado: \n");
@@ -37,6 +36,9 @@ int main(){
     printf("area: %f kilometros quadrados\n", area);
     printf("pib: %f bilhões de reais \n", pib);
     printf("pontos turisticos: %d \n", pontos_turisticos);
+
+    return 0;
+}
 
     return 0;
 }
